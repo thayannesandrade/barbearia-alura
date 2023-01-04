@@ -1,0 +1,102 @@
+header {
+    background: #BBBBBB;
+}
+
+.container_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 60px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px ;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:rgb(235, 144, 34);
+    text-decoration: underline;
+}
+
+main {
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;  
+    margin-top: 50px; 
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+.input-one {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+#news {
+    margin: 20px 0;
+}
+
+#send-form {
+    width: 40%;
+    padding: 15px 0;
+    background: #F7BB2D;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#send-form:hover {
+    background:#2D6BF7;
+    transform: scale(1.2);
+    
+}
+
+table {
+   width: 35%;
+   height: 50px; 
+   margin-top: 15%;
+   
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}

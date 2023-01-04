@@ -1,0 +1,58 @@
+.main {
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    
+}
+h2, h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#banner {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.about_barber {
+    margin: 40px 0;
+
+}
+
+.about_barber > p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#mission {
+    font-size: 20px;
+}
+
+em strong {
+    background-color: rgb(235, 144, 34);
+}
+
+.advantage {
+    width: 100%;
+    background: #BBBBBB;
+    padding: 50px;
+}
+
+.advantage ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.itens {
+    font-style: italic;
+    margin: 50px 0 0 0;
+}
+
+#img-advantage {
+    width: 50%;
+    margin-top: 20px;
+}
